@@ -4,9 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon backend/index.js",
+    "start": "node backend/index.js",
+  "dev": "nodemon backend/index.js",
+  "postinstall": "npm install && chmod +x node_modules/.bin/nodemon",
     "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
-    "start": "nodemon backend/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vikas Bishnoi",
