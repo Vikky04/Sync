@@ -4,9 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node backend/index.js",
-   "dev": "nodemon backend/index.js",
-   "postinstall": "npm install && chmod +x node_modules/.bin/nodemon",
+    "start": "nodemon backend/index.js",
+    "dev": "nodemon backend/index.js",
+    "postinstall": "npm install && chmod +x node_modules/.bin/nodemon",
     "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
