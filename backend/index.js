@@ -25,7 +25,7 @@ app.use(express.json());// req -> res-> json data
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOpations={
-    origin:'http://localhost:5173',
+    origin:'https://sync-vp51.onrender.com',
     credentials:true
 }
 app.use(cors(corsOpations));
