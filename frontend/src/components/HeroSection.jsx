@@ -157,7 +157,7 @@ export const HeroSection = () => {
 
             {/* Center Image */}
             <motion.img
-              src="/images/mainImage.png"
+              src="./mainImage.png"
               alt="Center Image"
               className="w-100 h-100"
               initial={{ opacity: 0, scale: 0.8 }}
